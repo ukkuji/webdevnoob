@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Difficult Is Programming</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="Document/Curriculum Vitae.pdf">Download CV</a> |       
+        <a href="contact.html">Contact</a> |
+        <a href="about.html">About me</a> |
+        <a href="survey.html">Survey</a> |
+        <a href="sekolahkoding.html">latihan</a>
+    </nav>
+    <h1 >How Difficult Is Programming</h1>
+    <!--Survey Design Form-->
+    <form>
+        <fieldset>
+            <legend>Data Diri</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" maxlength="50" size="30" placeholder="Enter your name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">Address</label>
+                    </td>
+                    <td>
+                        <input type="text"  id="address" maxlength="50" size="30" placeholder="Enter your address">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input type="email"  id="email" maxlength="50" size="30" placeholder="Enter your email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hours of practice">How many hours do you practice every day?</label>
+                    </td>
+                    <td>
+                        <br>
+                        <input type="radio"  name="hours of practice">0 <br>
+                        <input type="radio"  name="hours of practice">1 <br>
+                        <input type="radio"  name="hours of practice">2 <br>
+                        <input type="radio"  name="hours of practice">More than 2 <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="favourit_language">My favourite language</label>
+                    </td>
+                    <td>
+                        <br>
+                        <select multiple size="4">
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="PHP">PHP</option>
+                            <option value="SQL">SQL</option>
+                        </select>  
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="brochure">Would you like a brochure?</label>
+                    </td>
+                    <td>
+                        <br>
+                        <input type="checkbox" name="brochure">Yes
+                        <input type="checkbox" name="brochure">No
+                        <br>
+                        <br>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="programming">what programming language do you like?</label>
+                    </td>
+                    <td>
+                        <select name="programming">
+                            <optgroup label="frontend">
+                                <option value="html">HTML5</option>
+                                <option value="css">CSS3</option>
+                                <option value="javascript">JavaScript</option>
+                            </optgroup>
+                            <optgroup label="backend">
+                                <option value="php">PHP</option>
+                                <option value="mysql">mysql</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                   <td colspan="2" style="text-align:center;">
+                    <br>
+                       <input type="submit" value="submit">
+                       <input type="reset" value="reset">
+                   </td>
+                </tr>
+            </table>
+        </fieldset>
+        
+    </form>
+</body>
+</html>
